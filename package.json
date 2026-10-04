@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.ts",
   "dependencies": {
-    "expo": "~57.0.25",
+    "expo": "~57.0.26",
     "expo-build-properties": "~57.0.22",
     "expo-haptics": "~57.0.3",
     "expo-navigation-bar": "~57.0.2",
