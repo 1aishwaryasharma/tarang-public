@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Tarang TV Remote",
+    "slug": "tarang-fire-tv-remote",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "backgroundColor": "#030B1E",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
+    "scheme": "tarangremote",
+    "plugins": [
+      "expo-secure-store",
+      ["expo-navigation-bar", {"enforceContrast": false, "style": "dark"}],
+      ["expo-build-properties", {"android": {"usesCleartextTraffic": true}}]
+    ],
+    "android": {
+      "package": "com.tarang.firetvremote",
+      "backgroundColor": "#030B1E",
+      "userInterfaceStyle": "dark",
+      "permissions": ["INTERNET"],
+      "blockedPermissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.SYSTEM_ALERT_WINDOW"
+      ],
+      "adaptiveIcon": {
+        "backgroundColor": "#030B1E",
+        "foregroundImage": "./assets/android-icon-foreground.png"
+      },
+      "predictiveBackGestureEnabled": false
+    }
+  }
+}

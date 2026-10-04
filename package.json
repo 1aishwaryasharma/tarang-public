@@ -1,0 +1,27 @@
+{
+  "name": "tarang-fire-tv-remote",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "expo": "~57.0.25",
+    "expo-build-properties": "~57.0.22",
+    "expo-haptics": "~57.0.3",
+    "expo-navigation-bar": "~57.0.2",
+    "expo-secure-store": "~57.0.4",
+    "expo-status-bar": "~57.0.1",
+    "expo-system-ui": "~57.0.4",
+    "react": "19.2.3",
+    "react-native": "0.86.3"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "typescript": "~6.0.3"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "build:android": "bash scripts/build-android.sh",
+    "typecheck": "tsc --noEmit"
+  },
+  "private": true
+}
