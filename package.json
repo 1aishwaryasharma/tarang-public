@@ -6,7 +6,7 @@
     "expo": "~57.0.25",
     "expo-build-properties": "~57.0.22",
     "expo-haptics": "~57.0.3",
-    "expo-navigation-bar": "~57.0.2",
+    "expo-navigation-bar": "~57.0.3",
     "expo-secure-store": "~57.0.4",
     "expo-status-bar": "~57.0.1",
     "expo-system-ui": "~57.0.4",
