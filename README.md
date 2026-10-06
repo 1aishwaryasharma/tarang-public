@@ -10,7 +10,9 @@ The app was developed and tested with one Insignia Fire TV running Fire OS 7. Ot
 - Find a Fire TV on the local network, pair with its on-screen PIN, and save the pairing in Android SecureStore.
 - Wake a TV with a DIAL request or ask it to enter standby.
 - Send a five-digit Child PIN with the TV's on-screen PIN wheel. Optionally store that PIN behind phone biometrics.
-- Open the TV's Quick Settings with a held Home command so you can set its built-in sleep timer. This path still needs a physical device test.
+- Open the TV's Quick Settings with a held Home command so you can set its built-in sleep timer.
+
+Phone and TV checks for the current features are complete on the maintainer's setup. This includes Sleep TV/Wake TV, the sleep timer shortcut, biometric Child PIN reuse, and the remote controls. Other Fire TV models remain untested.
 
 The pairing token and Child PIN stay on the phone. Tarang checks the TV's certificate before sending the pairing token. The initial connection must be made on a network you trust because the app has not pinned a certificate yet.
 
