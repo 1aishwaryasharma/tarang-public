@@ -28,7 +28,6 @@ const PAIRING_EXPIRED = 'Pairing expired. Pair with the TV again.';
 const WAKE_NOT_RETURNED = 'The TV woke but its remote service did not start. Tap Connect again.';
 const PIN_REJECTED = 'The TV did not accept that PIN. Show a new PIN and try again.';
 const SLEEP_UNCONFIRMED = 'The TV may have gone to sleep before replying. Check its screen. Tap Wake TV to resume.';
-// A working Fire TV integration opens Settings with this hold; it still needs a physical device test.
 const SETTINGS_HOLD_MS = 400;
 
 type RequestKind = 'press' | 'check' | 'connect' | 'pair' | 'sleep' | 'tvSettings';
